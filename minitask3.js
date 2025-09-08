@@ -30,7 +30,6 @@ antrian("John", 1500).then(res=>{
 
 
 
-
 async function antrian2(){
     try {
         const nama1 = await antrian('john', 1500)
