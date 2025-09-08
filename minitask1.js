@@ -3,9 +3,12 @@ const genap = angka.filter(function(nilai){
     return nilai % 2 == 0;
 })
 
+// cara lama
+for(let i =0; i< angka.length; i++){
+    if(angka[i] % 2 == 0){
+        console.log(angka[i])
+    }
+}
+
 
 console.log(genap)
-
-
-
-
